@@ -1,7 +1,7 @@
 import { useRef, useEffect, useState } from 'react';
+import { FormEvent } from 'react';
 import { useAtom, useAtomValue, useSetAtom } from 'jotai';
 
-import Credits from '../Credits/Credits';
 import FilterModeSelector from '../FilterModeSelector/FilterModeSelector';
 import FilterMessageLimitsForm from '../FilterMessageLimitsForm/FilterMessageLimitsForm';
 import FilterMessageDatesForm from '../FilterMessageDatesForm/FilterMessageDatesForm';
@@ -116,7 +116,6 @@ function Sidebar() {
               setActiveUser={setActiveUser}
             />
           </S.SidebarChildren>
-          <Credits />
         </S.SidebarContainer>
       </S.Sidebar>
     </>
