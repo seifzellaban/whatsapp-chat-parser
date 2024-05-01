@@ -2,7 +2,7 @@
 
 # dependencies
 /node_modules
-/src/assets/*.txt
+/src/assets/whatsapp-chat-with-shahd.txt
 /.pnp
 .pnp.js
 
