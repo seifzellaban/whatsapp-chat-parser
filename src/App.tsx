@@ -8,7 +8,7 @@ import MessageViewer from './components/MessageViewer/MessageViewer';
 import Sidebar from './components/Sidebar/Sidebar';
 import * as S from './style';
 
-import exampleChat from './assets/whatsapp-chat-parser-example.zip';
+import latestChat from './assets/whatsapp-chat-with-shahd.zip';
 
 function App() {
   const messages = useAtomValue(messagesAtom);
@@ -54,8 +54,8 @@ function App() {
         <S.Header>
           <Dropzone onFileUpload={processFile} id="dropzone" />
           <span>OR</span>
-          <a href={exampleChat} download>
-            Download example chat
+          <a href={latestChat} download>
+            Download latest chat backup
           </a>
         </S.Header>
         <MessageViewer />
