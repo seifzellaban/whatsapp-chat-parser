@@ -8,7 +8,7 @@ import MessageViewer from './components/MessageViewer/MessageViewer';
 import Sidebar from './components/Sidebar/Sidebar';
 import * as S from './style';
 
-import latestChat from './assets/whatsapp-chat-with-shahd.zip';
+import latestChat from './assets/whatsapp-chat-backup-april-2024.zip';
 
 function App() {
   const messages = useAtomValue(messagesAtom);
